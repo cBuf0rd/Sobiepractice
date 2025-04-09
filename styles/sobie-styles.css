@@ -21,6 +21,10 @@
       display: table;
       clear: both;
     }
+    .card {
+      align-items: center;
+      text-align: center;
+    }
     .sobie-logo {
 
       border: solid 1px gray;
