@@ -6,7 +6,8 @@
       
     }
     h1{
-      border-style: outset; 
+      border-style: dotted;
+      border-color: blue; 
      
     }
     .column {
