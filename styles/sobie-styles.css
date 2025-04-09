@@ -5,6 +5,10 @@
       margin-top: 81px;
       
     }
+    h1{
+      border-style: outset; 
+     
+    }
     .column {
       float: left;
       width: 50%;
