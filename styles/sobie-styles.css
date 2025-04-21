@@ -21,10 +21,6 @@
       display: table;
       clear: both;
     }
-    .card {
-      align-items: center;
-      text-align: center;
-    }
     .sobie-logo {
 
       border: solid 1px gray;
@@ -44,4 +40,31 @@
       /* font-family: 'Dancing Script', cursive; */
       font-family: 'Nova Square', sans-serif;
 
+    }
+    .interactive-option {
+      margin: 2rem 0;
+      padding: 2rem;
+      border-radius: 1rem;
+      background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+    .interactive-option:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    .interactive-option h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .interactive-option a {
+      display: inline-block;
+      margin-top: 1rem;
+      text-decoration: none;
+      color: #0056b3;
+      font-weight: 500;
+    }
+    .interactive-option a:hover {
+      text-decoration: underline;
     }
